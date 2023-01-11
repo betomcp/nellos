@@ -1,0 +1,80 @@
+:host {
+  width: 100%;
+
+  .cinema_section {
+    background-color: white;
+    width: 100%;
+    background-image: url(../../../../assets/imgs/cinema/nellos-cinema-bg-1.gif);
+    background-attachment: fixed;
+
+    .bg_cinema {
+      padding: 2rem 2rem 0 2rem;
+      width: 100%;
+      padding-top: 15.3vh !important;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.672);
+    }
+
+    h2 {
+      font-family: 'park_lane_nfregular';
+      font-size: 5rem;
+      letter-spacing: 5px;
+      font-weight: 100 !important;
+      color: #580E0F;
+    }
+
+    h3 {
+      letter-spacing: 3px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 200;
+      font-size: 3.5rem;
+      color: #580E0F;
+    }
+
+    .cinema_text {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      p {
+        padding-top: 1rem;
+        width: 62%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        letter-spacing: 2px;
+
+        a {
+          text-decoration: none;
+          color: white;
+          position: relative;
+          top: 5rem;
+          padding: 2rem 4rem;
+          background-color: #580E0F;
+          transition: .4s;
+        }
+
+        a:hover {
+          background-color: #2f0809;
+        }
+
+      }
+
+      .cinema_imgs {
+        .cinema_img_1 {
+          position: relative;
+          left: 10rem;
+        }
+
+        .cinema_img_2 {
+          position: relative;
+          left: -5rem;
+          top: -13rem;
+          width: 50%;
+        }
+      }
+    }
+  }
+}
