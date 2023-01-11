@@ -1,0 +1,53 @@
+.cardapio_vino {
+  display: block;
+
+  width: 50%;
+
+  h2 {
+    font-family: 'park_lane_nfregular_small';
+    font-weight: 100;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.456)
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    color: rgba(0, 0, 0, 0.379);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+
+  p {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    line-height: 2.1rem;
+    letter-spacing: 2px;
+    color: white;
+  }
+
+  .food_menu_btns {
+    width: 100%;
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    a {
+      margin: 1rem 1rem 1rem 0;
+      width: 35%;
+      text-decoration: none;
+      color: white;
+      background-color: #580E0F;
+      transition: .4s;
+      text-align: center;
+      padding: 1rem 2rem;
+    }
+
+    a:hover {
+      background-color: #2f0809;
+    }
+  }
+}
