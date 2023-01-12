@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { HistoryComponent } from './home/components/history/history.component';
 import { MenuComponent } from './home/components/menu/menu.component';
+import { EventsComponent } from './home/components/events/events.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { MenuComponent } from './home/components/menu/menu.component';
     HeaderComponent,
     HistoryComponent,
     MenuComponent,
+    EventsComponent,
   ],
   imports: [
     BrowserModule,
