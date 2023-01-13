@@ -8,6 +8,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { HistoryComponent } from './home/components/history/history.component';
 import { MenuComponent } from './home/components/menu/menu.component';
 import { EventsComponent } from './home/components/events/events.component';
+import { DeliveryComponent } from './home/components/delivery/delivery.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { EventsComponent } from './home/components/events/events.component';
     HistoryComponent,
     MenuComponent,
     EventsComponent,
+    DeliveryComponent,
   ],
   imports: [
     BrowserModule,

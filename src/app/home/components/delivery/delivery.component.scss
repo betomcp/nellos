@@ -1,0 +1,87 @@
+:host {
+  .delivery {
+    min-height: 100vh;
+    border: solid 1px transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    h2 {
+      margin-top: 14vh;
+      font-size: 5rem;
+      font-weight: 100;
+      color: white;
+      font-family: 'park_lane_nfregular';
+      letter-spacing: 6px;
+    }
+
+    .dellivery_div {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      padding: 5rem 3rem;
+
+      .left {
+        color: white;
+        font-weight: 100;
+
+        h3{
+          font-size: 3rem;
+          font-weight: 300;
+        }
+
+        p {
+          font-size: 1.5rem;
+          padding: .43rem 0;
+        }
+
+        ul {
+          padding: 1.8rem 0;
+          list-style: none;
+
+          li {
+            padding: .4rem 0;
+            font-size: 1.1rem;
+            b{
+              font-weight: 300;
+            }
+          }
+        }
+
+        h4{
+          font-weight: 300;
+          padding: 0 0 1rem 0;
+          font-size: 1.5rem;
+        }
+
+        a{
+          color: white;
+          font-size: 2rem;
+        }
+      }
+
+      .right {
+        width: 55%;
+
+        h4 {
+          font-size: 3rem;
+          color: white;
+          font-weight: 100;
+        }
+
+        h5 {
+          font-size: 1.5rem;
+          padding: 1rem 0;
+          color: white;
+          font-weight: 100;
+        }
+
+        img {
+          width: 100%;
+          border: solid 2rem rgba(255, 255, 255, 0.927);
+        }
+      }
+    }
+  }
+}
