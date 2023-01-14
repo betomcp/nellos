@@ -19,6 +19,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./events/events.module').then((m) => m.EventsModule),
   },
+  {
+    path: 'imagens',
+    loadChildren: () =>
+      import('./images/images.module').then((m) => m.ImagesModule),
+  },
 ];
 
 @NgModule({
