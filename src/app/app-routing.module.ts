@@ -9,6 +9,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./history/history.module').then((m) => m.HistoryModule),
   },
+  {
+    path: 'premiacoes',
+    loadChildren: () =>
+      import('./awards/awards.module').then((m) => m.AwardsModule),
+  },
 ];
 
 @NgModule({

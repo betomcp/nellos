@@ -1,12 +1,19 @@
+import { SharedModule } from './../shared/shared.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AwardsComponent } from './awards/awards.component';
+import { AwardsRoutingModule } from './awards-routing.module';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    AwardsComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    AwardsRoutingModule,
+    SharedModule
   ]
 })
 export class AwardsModule { }
