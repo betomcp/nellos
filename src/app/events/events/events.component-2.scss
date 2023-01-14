@@ -1,0 +1,64 @@
+.infos {
+  width: 70%;
+  box-shadow: 0 0 2px black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1rem 1.8rem;
+
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    p {
+      padding: 0 0 1rem 0;
+      font-size: 1.3rem;
+      color: white;
+    }
+  }
+
+  .parking,
+  .size {
+
+    i {
+      font-size: 1.3rem;
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 1.34rem;
+
+    p {
+      padding: .2rem 0;
+    }
+  }
+
+  .size {
+    width: 29%;
+  }
+}
+
+footer {
+  color: white;
+  padding: 0 0 2rem 0;
+
+  h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 2.3rem;
+  }
+
+  h6 {
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-size: 2.3rem;
+    font-family: 'park_lane_nfregular';
+  }
+}

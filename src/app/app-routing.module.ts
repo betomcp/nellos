@@ -14,6 +14,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./awards/awards.module').then((m) => m.AwardsModule),
   },
+  {
+    path: 'eventos',
+    loadChildren: () =>
+      import('./events/events.module').then((m) => m.EventsModule),
+  },
 ];
 
 @NgModule({
