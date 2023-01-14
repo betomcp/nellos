@@ -4,17 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './shared/header/header.component';
 import { HistoryComponent } from './home/components/history/history.component';
 import { MenuComponent } from './home/components/menu/menu.component';
 import { EventsComponent } from './home/components/events/events.component';
 import { DeliveryComponent } from './home/components/delivery/delivery.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent,
     HistoryComponent,
     MenuComponent,
     EventsComponent,
@@ -22,9 +21,11 @@ import { DeliveryComponent } from './home/components/delivery/delivery.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: []
 })
 export class AppModule { }
