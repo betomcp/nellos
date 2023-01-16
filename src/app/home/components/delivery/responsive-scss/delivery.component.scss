@@ -1,0 +1,53 @@
+@media(max-width: 1100px) {
+
+  :host {
+    .delivery {
+
+      .background {
+        padding-top: 2rem;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      .dellivery_div {
+        flex-direction: column; //nova
+        align-items: center;
+
+        .left {
+          width: 95%;
+          padding-bottom: 2rem;
+          text-align: center;
+
+          h3 {
+            text-align: center;
+          }
+
+          p {
+            text-align: center;
+
+          }
+
+          ul {
+            text-align: center;
+          }
+
+          h4 {
+            text-align: center;
+
+          }
+
+          a {
+            text-align: center;
+          }
+        }
+
+        .right {
+          width: 95%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
