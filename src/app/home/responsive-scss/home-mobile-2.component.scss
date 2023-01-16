@@ -69,7 +69,13 @@
 
           img {
             width: 100%;
+            margin-bottom: 2rem;
+            display: none;
           }
+        }
+
+        .img-mobile{
+          display: block;
         }
       }
 

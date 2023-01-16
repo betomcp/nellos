@@ -1,0 +1,43 @@
+@media(max-width: 1100px) {
+
+  :host {
+    .cardapio_title {
+      height: 38vh;
+      background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+
+      h2 {
+        font-size: 4rem;
+        width: 98%;
+        text-shadow: 0 0 4px black;
+      }
+    }
+
+    .cardapio {
+      .cardapio_div {
+        flex-direction: column;
+
+        .cardapio_text {
+          width: 100%;
+
+          .food_menu_btns {
+            a {
+              width: 40%;
+            }
+          }
+        }
+
+        .cardapio_vino {
+          margin-top: 2rem;
+          width: 100%;
+
+          a {
+            width: 40%;
+          }
+        }
+      }
+    }
+  }
+}
