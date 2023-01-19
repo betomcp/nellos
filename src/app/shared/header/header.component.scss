@@ -47,7 +47,7 @@
 @media(max-width: 1000px) {
   :host {
     img {
-      width: 70%;
+      width: 54%;
     }
 
     nav {
@@ -57,11 +57,53 @@
     .burger {
       display: block;
 
-      button{
+      button {
         background-color: transparent;
         color: white;
         outline: none;
         border: none;
+      }
+
+      .burger_open {
+        position: fixed;
+        background-color: #3a0506f5;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 3;
+
+        .btn_close_div {
+          width: 100%;
+          display: flex;
+          padding: .7rem;
+          justify-content: flex-end;
+        }
+
+        .burger_nav {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+          ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            li{
+              padding: 3.3vh;
+
+              a{
+                color: white;
+                text-decoration: none;
+                font-size: 2rem;
+                letter-spacing: 3px;
+              }
+            }
+          }
+        }
       }
     }
   }

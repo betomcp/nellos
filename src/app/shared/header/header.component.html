@@ -15,6 +15,22 @@
     </ul>
   </nav>
   <div class="burger">
-    <button><i class='bx bx-menu' style="font-size: 6rem;"></i></button>
+    <button *ngIf="!open" (click)="toggleMenu()"><i class='bx bx-menu' style="font-size: 5rem;"></i></button>
+    <div *ngIf="open" class="burger_open">
+      <div class="btn_close_div">
+        <button (click)="toggleMenu()"><i class='bx bxs-x-square' style="font-size: 5rem;"></i></button>
+      </div>
+      <div class="burger_nav">
+        <ul>
+          <li><a (click)="toggleMenu()" href="#main-id">Home</a> </li>
+          <li><a (click)="toggleMenu()" href="#cardapio-title">Cardápio</a> </li>
+          <li><a (click)="toggleMenu()" href="#delivery-id">Pedidos</a> </li>
+          <li><a (click)="toggleMenu()" href="#hist-id">História</a> </li>
+          <li><a (click)="toggleMenu()" href="#event-id">Eventos</a> </li>
+          <li><a (click)="toggleMenu()" href="premiacoes">Premiações</a> </li>
+          <li><a (click)="toggleMenu()" href="https://www.youtube.com/channel/UCbBmwE4pXa-onc1swBdzd7w/featured" target="_blank">Vídeos</a> </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </header>
