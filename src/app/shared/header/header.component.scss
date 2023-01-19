@@ -1,4 +1,9 @@
 :host {
+
+  .burger {
+    display: none;
+  }
+
   header {
     position: fixed;
     z-index: 5;
@@ -40,10 +45,24 @@
 }
 
 @media(max-width: 1000px) {
-  img{
-    width: 70%;
-  }
-  nav{
-    display: none;
+  :host {
+    img {
+      width: 70%;
+    }
+
+    nav {
+      display: none;
+    }
+
+    .burger {
+      display: block;
+
+      button{
+        background-color: transparent;
+        color: white;
+        outline: none;
+        border: none;
+      }
+    }
   }
 }
