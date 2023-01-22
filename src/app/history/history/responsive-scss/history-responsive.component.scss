@@ -1,0 +1,24 @@
+@media(max-width: 1360px) {
+  :host {
+
+    .text_section {
+      h2 {
+        font-size: 3.4rem;
+        text-align: center;
+        width: 95%;
+        padding: 1rem 0;
+      }
+
+      h3 {
+        font-size: 3rem;
+        text-align: center;
+        width: 95%;
+      }
+
+      p {
+        text-align: center;
+        width: 95%;
+      }
+    }
+  }
+}

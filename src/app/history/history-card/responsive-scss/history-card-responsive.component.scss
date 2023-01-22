@@ -33,12 +33,16 @@
           height: 85rem !important;
         }
 
-        .histories{
+        .histories {
           padding: 0rem;
           justify-content: flex-end;
           width: 90%;
           margin-bottom: 3.2rem;
           padding-bottom: .5rem;
+
+          .animationText {
+            height: 28vh;
+          }
         }
 
         .number {
