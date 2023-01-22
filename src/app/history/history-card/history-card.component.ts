@@ -19,7 +19,11 @@ const animaition = () => {
 @Component({
   selector: 'app-history-card',
   templateUrl: './history-card.component.html',
-  styleUrls: ['./history-card.component.scss', './history-card-2.component.scss']
+  styleUrls: [
+    './history-card.component.scss',
+    './history-card-2.component.scss',
+    './responsive-scss/history-card-responsive.component.scss',
+  ],
 })
 export class HistoryCardComponent implements OnInit {
   public dots: string[] = [

@@ -81,14 +81,18 @@
     .images {
       align-items: flex-start;
       justify-content: center;
-      background-position: 0px 20vh;
+      background-position: 0px 24vh;
       background-size: contain !important;
       background-attachment: scroll !important;
       height: 50vh;
 
+      h1 {
+        font-size: 3.6rem;
+      }
+
     }
 
-    .btns{
+    .btns {
       // margin-top: -25vh;
     }
 
