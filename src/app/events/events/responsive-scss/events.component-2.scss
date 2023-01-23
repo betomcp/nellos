@@ -1,15 +1,5 @@
 @media(max-width: 1350px) {
   :host {
-    main {
-      .text {
-        width: 100%;
-
-        p {
-          width: 100%;
-        }
-      }
-    }
-
     .infos {
       flex-direction: column;
 
@@ -22,6 +12,45 @@
         img {
           width: 100%;
         }
+      }
+    }
+  }
+}
+
+@media(max-width: 1000px) {
+  :host {
+    main {
+
+      .imgs {
+        background-size: contain;
+      }
+
+      .title {
+        max-width: none;
+        width: 80%;
+
+        h2 {
+          font-weight: 500 !important;
+          font-size: 2.8rem;
+        }
+      }
+
+      .text {
+        width: 100%;
+
+        p {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 600px) {
+  :host {
+    main {
+      .title{
+        margin-top: -27vh;
       }
     }
   }
