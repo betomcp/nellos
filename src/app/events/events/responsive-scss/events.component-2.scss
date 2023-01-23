@@ -1,0 +1,28 @@
+@media(max-width: 1350px) {
+  :host {
+    main {
+      .text {
+        width: 100%;
+
+        p {
+          width: 100%;
+        }
+      }
+    }
+
+    .infos {
+      flex-direction: column;
+
+      .parking,
+      .cards,
+      .size {
+        width: 100%;
+        padding: 1rem 0;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
