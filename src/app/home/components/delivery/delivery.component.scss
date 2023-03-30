@@ -92,5 +92,17 @@
         }
       }
     }
+
+    .partners_img {
+
+      img {
+        height: 4.5rem;
+        border-radius: 10px;
+      }
+
+      img:last-child {
+        margin-left: 1rem;
+      }
+    }
   }
 }

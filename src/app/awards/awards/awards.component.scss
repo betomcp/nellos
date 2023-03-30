@@ -2,12 +2,16 @@
 
   main {
 
+    // background-image: url(../../../assets/imgs/cinema/nellos-cinema-bg-1.gif);
     margin-top: 16vh;
     width: 100%;
-    min-height: 80vh;
+    min-height:100vh;
+    // height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 3rem;
+    padding-top: 14vh;
 
     h1 {
       font-family: 'park_lane_nfregular';
@@ -38,6 +42,7 @@
       font-weight: 200;
       font-family: 'Montserrat', sans-serif;
       padding: 1rem 0;
+      text-align: center;
     }
 
     h4 {
@@ -46,34 +51,71 @@
       font-weight: 100;
       font-size: 2rem;
       letter-spacing: 6px;
+      text-align: center;
     }
 
     .awards {
 
       img {
         height: auto;
-        width: 10%;
+        width: 15%;
+        margin: .5rem .7rem;
+        aspect-ratio: 3/2;
+        object-fit: contain;
       }
 
       margin-top: 2rem;
       align-items: center;
       width: 80%;
       display: flex;
-      justify-content: space-between;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     .imgs {
       img {
-        box-shadow: 0 0 5px rgb(44, 4, 4);
-        height: 22vh;
+        box-shadow: 0 0 5px rgba(44, 4, 4, 0.692);
+        height: 18vh;
         width: auto;
+        margin: .8rem;
+        aspect-ratio: 3/2;
+        object-fit: contain;
       }
 
       margin-top: 2rem;
       align-items: center;
       width: 80%;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-around;
+    }
+
+    @media(max-width: 920px) {
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      .awards {
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        img {
+          width: 35%;
+          height: auto;
+          aspect-ratio: 3/2;
+          object-fit: contain;
+        }
+      }
+
+      .imgs {
+        img {
+          width: 38%;
+          height: auto;
+          aspect-ratio: 3/2;
+          object-fit: contain;
+        }
+      }
     }
   }
 }
