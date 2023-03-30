@@ -75,4 +75,13 @@
       }
     }
   }
+
+  .insta_p {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.462);
+    padding: 1rem .4rem !important;
+    margin-bottom: 2rem;
+    a:hover {
+      color: rgba(255, 255, 255, 0.211) !important;
+    }
+  }
 }
