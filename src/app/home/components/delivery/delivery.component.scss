@@ -82,14 +82,17 @@
 
           div {
             text-align: center;
+            display: flex;
+            flex-direction: column;
 
             img {
-              height: 4.5rem;
+              height: 5.3rem;
               border-radius: 10px;
             }
 
             legend {
-              font-size: 1.2rem;
+              font-size: 1.7rem;
+              text-align: center;
             }
           }
 
