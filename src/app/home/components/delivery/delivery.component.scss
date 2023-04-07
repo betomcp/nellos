@@ -12,6 +12,7 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      min-height: 100vh;
       align-items: center;
     }
 
@@ -32,7 +33,7 @@
 
       .left {
         color: white;
-        font-weight: 100;
+        font-weight: 500;
 
         h3 {
           font-size: 3rem;
@@ -41,7 +42,11 @@
 
         p {
           font-size: 1.5rem;
-          padding: .43rem 0;
+          padding: .4rem 0;
+        }
+
+        .celphone_p {
+          margin-bottom: 1rem !important;
         }
 
         ul {
@@ -60,13 +65,38 @@
 
         h4 {
           font-weight: 300;
-          padding: 0 0 1rem 0;
+          padding: 1rem 0 1rem 0;
           font-size: 1.5rem;
+          width: 70%;
         }
 
         a {
           color: white;
           font-size: 2rem;
+        }
+
+        .partners_img {
+
+          display: flex;
+          justify-content: flex-start;
+
+          div {
+            text-align: center;
+
+            img {
+              height: 4.5rem;
+              border-radius: 10px;
+            }
+
+            legend {
+              font-size: 1.2rem;
+            }
+          }
+
+          div:last-child {
+            margin-left: 1.2rem;
+          }
+
         }
       }
 
@@ -90,18 +120,6 @@
           width: 100%;
           border: solid 2rem rgba(255, 255, 255, 0.927);
         }
-      }
-    }
-
-    .partners_img {
-
-      img {
-        height: 4.5rem;
-        border-radius: 10px;
-      }
-
-      img:last-child {
-        margin-left: 1rem;
       }
     }
   }
