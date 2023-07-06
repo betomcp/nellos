@@ -1,10 +1,15 @@
 section {
 
+  .news, .promotions {
+    width: 75%;
+    padding: 1rem !important;
+  }
+
   .news,
   .especialitys,
   .promotions {
     // border: solid 2px red;
-    padding: 6rem 3rem;
+    padding: 3rem 0rem;
 
     h3 {
       font-family: 'park_lane_nfregular';
@@ -41,11 +46,11 @@ section {
     p {
       line-height: 2.5rem;
       color: rgb(255, 255, 255);
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       letter-spacing: 2px;
       font-family: 'Montserrat', sans-serif;
       font-weight: 200 !important;
-      padding: .4rem 0;
+      padding: .4rem .5rem;
     }
   }
 

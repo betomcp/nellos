@@ -1,6 +1,10 @@
 :host {
   width: 100%;
 
+  .btns_mob {
+    display: none !important;
+  }
+
   .img-mobile{
     display: none;
   }
@@ -17,6 +21,7 @@
 
     section {
       width: 50%;
+      padding: 2rem;
 
       h1 {
         font-size: 8rem;
@@ -49,12 +54,13 @@
           text-decoration: none;
           box-shadow: 0 0 1px rgb(255, 255, 255);
           padding: 2.3rem 4rem;
-          font-size: 2.2rem;
+          font-size: 2.3rem;
           font-weight: 100;
           letter-spacing: 5px;
           text-align: center;
           font-family: 'Libre Baskerville', serif;
           font-family: 'park_lane_nfregular';
+          background-color: rgba(226, 74, 74, 0.265);
           box-shadow: 0 0 2.8px black;
           width: 45%;
           transition: .4s;
